@@ -12,7 +12,7 @@ def main():
     
 main()
 
-# 1 order book, 2 python rand int done
+# 1 order book, 2 python rand int done 
 # make window 500 x 500 - done
 # get mouse position first, draw circle on mouse position, draw in random color.
 # git it to connect to git
