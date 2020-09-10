@@ -5,7 +5,7 @@ def main():
     win = GraphWin("My Circle", 500, 500)
     win.setBackground(color_rgb(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
     mousepos = win.getMouse()
-    c = Circle(Point(mousepos.x,mousepos.y), random.randint(0, 100)) #could have just passed mousepos?
+    c = Circle(mousepos), random.randint(0, 100)) #could have just passed mousepos?
     c.setFill(color_rgb(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
     c.draw(win)
     win.getMouse() # Pause to view result
